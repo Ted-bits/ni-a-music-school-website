@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Instruments School</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add your custom CSS if needed -->
+  <style>
+    body {
+      
+
+    }
+    .container {
+      background-color: lightblue;
+      padding: 15px;
+    }
+
+    ul, ol {
+      list-style-type: none;
+      padding-left: 0; /* Optional: Remove left padding for <ul> and <ol> */
+    }
+     /* Optional: Add styles for the marquee */
+    .marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquee-text {
+      display: inline-block;
+      animation: marquee 20s linear infinite; /* Adjust the duration to control the speed */
+    }
+
+    @keyframes marquee {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Add your custom styles here */
+  </style>
+</head>
+<body>
+
+  <div class="container" style="padding: 15px;">
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Niña Music School Academy</a>
+  <!-- Add navigation links here -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Header Section -->
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <div class="marquee-container">
+      <h1>Welcome to Niña Music School Academy</h1>
+      <span class="marquee-text">Welcome to Niña Music School Academy - Learn to play your favorite instruments with our expert instructors! </span>
+    </div>
+  </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <section class="container">
+    <h2>Our Courses</h2>
+    <div class="row">
+      <!-- You can add various courses with their descriptions and details -->
+      <div class="col-md-4 mb-4">
+        <h3>Guitar</h3>
+        <p>Learn to play the guitar with our comprehensive lessons.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3>Piano</h3>
+        <p>Discover the magic of piano melodies with our experienced teachers.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h3>Drums</h3>
+        <p>Get your rhythm on point with our drumming courses.</p>
+      </div>
+  </section>
+
+  <!-- Premium Offers Section -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Premium Offers</h2>
+      <p>Upgrade to premium to access exclusive features:</p>
+      <ul>
+        <li>One-on-one sessions with renowned musicians</li>
+        <li>Personalized feedback on your performances</li>
+        <li>Access to advanced lessons and tutorials</li>
+        <!-- Add more premium features -->
+      </ul>
+      <p><a href="#" class="btn btn-primary btn-lg">Upgrade Now</a></p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+<section class="container py-5">
+  <h2>Testimonials</h2>
+  <div class="row">
+    <!-- You can add testimonials from satisfied students -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <blockquote class="blockquote">
+            <p class="mb-0">"The guitar lessons were fantastic! I can now play my favorite songs with confidence."</p>
+            <footer class="blockquote-footer">Niña Jane</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more testimonials here -->
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more testimonials here -->
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container py-5">
+  <h2>Our Services</h2>
+  <div class="row">
+    <!-- Add information about your music school services here -->
+    <div class="col-md-6 mb-4">
+      <div class="card">
+        <img src="path/to/service-image1.jpg" class="card-img-top" alt="Service 1">
+        <div class="card-body">
+          <h5 class="card-title">Service 1</h5>
+          <p class="card-text">Join our group practice sessions to enhance your musical skills in a collaborative environment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <div class="card">
+        <img src="path/to/service-image2.jpg" class="card-img-top" alt="Service 2">
+        <div class="card-body">
+          <h5 class="card-title">Service 2</h5>
+          <p class="card-text">Experience personalized one-on-one sessions with our professional musicians to take your performance to the next level.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add more service cards here -->
+  </div>
+</section>
+
+
+<!-- Meet the Instructors Section -->
+<section class="container py-5">
+  <h2>Meet the Instructors</h2>
+  <div class="row">
+    <!-- Add information about your music instructors here -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="path/to/instructor-image.jpg" class="card-img-top" alt="Instructor Name">
+        <div class="card-body">
+          <h5 class="card-title">Niña Jane Ano-os</h5>
+          <p class="card-text">Niña Jane Ano-os is experienced in organ instrument.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more instructor profiles here -->
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more instructor profiles here -->
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="container py-5">
+  <h2>Gallery</h2>
+  <div class="row">
+    <!-- Add images or videos showcasing your music school activities -->
+    <div class="col-md-4 mb-4">
+      <img src="path/to/gallery-image1.jpg" class="img-fluid" alt="Gallery Image 1">
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more gallery items here -->
+    </div>
+    <div class="col-md-4 mb-4">
+      <!-- Add more gallery items here -->
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="container py-5">
+  <h2>Frequently Asked Questions</h2>
+  <div class="accordion" id="faqAccordion">
+    <!-- Add your frequently asked questions here -->
+    <div class="card">
+      <div class="card-header" id="faqHeading1">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+            How do I enroll in a course?
+          </button>
+        </h5>
+      </div>
+      <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+        <div class="card-body">
+          To enroll in a course, simply visit our website, browse the available courses, and click on the "Enroll" button of the course you're interested in. Follow the instructions to complete the enrollment process.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <!-- Add more FAQs here -->
+    </div>
+  </div>
+</section>
+
+
+<!-- Pricing Section -->
+<section class="container py-5">
+  <h2>Pricing</h2>
+  <div class="row">
+    <!-- Basic Plan -->
+    <div class="col-md-6 mb-4">
+      <div class="card">
+        <div class="card-header bg-primary text-light">
+          <h3 class="mb-0">Basic Plan</h3>
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li class="list-group-item">Access to beginner lessons</li>
+            <li class="list-group-item">Group practice sessions</li>
+            <li class="list-group-item">Limited song library</li>
+            <li class="list-group-item">Regular feedback</li>
+          </ul>
+          <div class="text-center mt-4">
+            <p class="h4">Price: ₱1095.12/month</p>
+            <a href="#" class="btn btn-primary">Get Basic</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="col-md-6 mb-4">
+      <div class="card">
+        <div class="card-header bg-success text-light">
+          <h3 class="mb-0">Premium Plan</h3>
+        </div>
+        <div class="card-body">
+          <ul class="list-group">
+            <li class="list-group-item">Access to all lessons, including advanced courses</li>
+            <li class="list-group-item">One-on-one sessions with professional musicians</li>
+            <li class="list-group-item">Unlimited song library</li>
+            <li class="list-group-item">Personalized feedback on performances</li>
+          </ul>
+          <div class="text-center mt-4">
+            <p class="h4">Price: ₱ 2738.63/month</p>
+            <a href="#" class="btn btn-success">Get Premium</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter Subscription Section -->
+<section class="container bg-light py-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Subscribe to our Newsletter</h2>
+      <p>Stay up-to-date with the latest courses, promotions, and music tips by subscribing to our newsletter.</p>
+    </div>
+    <div class="col-md-6">
+      <!-- Add a newsletter subscription form here -->
+      <form>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Your Email">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+  <h2>Contact Us</h2>
+  <div  class="row">
+    <div class="col-md-6">
+      <p>If you have any questions or inquiries, feel free to contact us:</p>
+      <ul>
+        <li>Email: info@niñamusicschool.com</li>
+        <li>Phone: 09189632018 </li>
+        <!-- Add more contact information as needed -->
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <!-- Add a contact form here for users to submit inquiries -->
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Back to Top Button -->
+<button onclick="topFunction()" id="back-to-top-btn" title="Go to top">&#8593;</button>
+
+<!-- Add custom JavaScript -->
+<script>
+  // Smooth scrolling to top when the back-to-top button is clicked
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2023 Music School. All rights reserved.</p>
+  </footer>
+  </div>
+
+  <!-- Add Bootstrap JS and other scripts if needed -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
