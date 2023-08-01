@@ -1,0 +1,323 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Home Section Styles */
+.hero {
+  background-image: url('cover.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+/* About Me Section Styles */
+.about-me {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-text {
+  margin-left: 30px;
+}
+
+.profile-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.profile-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Teaching Experience Section Styles */
+.teaching-experience {
+  padding: 50px 0;
+}
+
+.teaching-experience h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+
+/* Education and Qualifications Section Styles */
+.education {
+  padding: 50px 0;
+}
+
+.education h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.qualification-item {
+  margin-bottom: 30px;
+}
+
+.qualification-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+
+/* Teaching Methodology Section Styles */
+.teaching-methodology {
+  padding: 50px 0;
+}
+
+.teaching-methodology h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.methodology-item {
+  margin-bottom: 30px;
+}
+
+.methodology-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.methodology-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Subjects/Courses Taught Section Styles */
+.subjects {
+  padding: 50px 0;
+}
+
+.subjects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.subject-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subject-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.subject-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Student Testimonials Section Styles */
+.testimonials {
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.testimonial-item {
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.student-name {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Achievements and Awards Section Styles */
+.achievements {
+  padding: 50px 0;
+}
+
+.achievements h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.achievement-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.achievement-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.achievement-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Professional Development Section Styles */
+.professional-development {
+  padding: 50px 0;
+}
+
+.professional-development h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.development-item {
+  margin-bottom: 30px;
+}
+
+.development-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.1rem;
+  color: #777;
+}
+
+
+/* Contact Information Section Styles */
+.contact {
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section Styles */
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: #007BFF;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+}
+
