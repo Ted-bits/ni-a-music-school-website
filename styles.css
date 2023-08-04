@@ -7,7 +7,7 @@ body {
 
 /* Home Section Styles */
 .hero {
-  background-image: url('cover.jpg');
+  background-image: url('file_cv/cover.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
